@@ -1,0 +1,7 @@
+# API e DATABASE INFO
+teste.env
+
+# not too important cache files created by python 
+# and vscode
+__pycache__/
+.vscode/

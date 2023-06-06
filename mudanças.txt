@@ -1,0 +1,9 @@
+1. organizaar o routes
+2. organizar models (verificar se é assim que se chama)
+3. melhorar a pasta para colocar o main.py
+4. configurar para iniciar o main.py com uvicorn
+5. COMENTAR O QUE JÁ TEM
+6. futuro, tratar melhor os erros
+7. puxar com get um json a partir de uma data inicial e final
+8. puxar com get um json com tudo
+9. implementar o restfull (update/delete/rest_glory)
