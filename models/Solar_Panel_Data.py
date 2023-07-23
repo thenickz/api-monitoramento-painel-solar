@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Float, String
 from sqlalchemy.ext.declarative import declarative_base
-from connection import DBConnectionHandler
+from infra.connection import DBConnectionHandler
 from datetime import datetime
 from pytz import timezone
 
@@ -14,7 +14,7 @@ def dt_moment():
 
 
 # painel_solar_data's table class
-class Painel_Solar_Data(Base):
+class Solar_Panel_Data(Base):
     __tablename__ = 'painel_solar_data'
 
     # Columns and Columns Configs

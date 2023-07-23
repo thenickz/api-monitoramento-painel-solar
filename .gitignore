@@ -1,7 +1,7 @@
-# API e DATABASE INFO
-teste.env
-
-# not too important cache files created by python 
-# and vscode
-__pycache__/
 .vscode/
+
+# Ignorar todas as pastas __pycache__ em qualquer nível de diretório
+**/__pycache__/
+
+# Ignorar todos os arquivos .env em qualquer nível de diretório
+**/*.env

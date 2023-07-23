@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from routes import get_method, post_method
+from routes import root, solar_painel, arduino_lora_receptor
 
 
 app = FastAPI()
-app.include_router(get_method.router)
-app.include_router(post_method.router)
+app.include_router(root.router)
+app.include_router(solar_painel.router)
+app.include_router(arduino_lora_receptor.router)
